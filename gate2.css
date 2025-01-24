@@ -79,6 +79,11 @@ header img{
     border-radius: 10px;
     background-color: white;
 }
+.buts img{
+    height: 25px;
+    width: 30px;
+    background-color: white;
+}
 .buts button{
     width: 330px;
     height: 50px;
@@ -120,10 +125,17 @@ header img{
     font-size: large;
 }
 .signin button{
-    padding-left: 500px;
+    padding-left: 450px;
     color: white;
     background-color: rgb(4, 4, 79) ;
     border: none;
+}
+.signin img{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(122, 173, 244);
+    margin-right: 10px;
+    border-radius: 54%;
 }
 h2{
     font-size: xx-large;
@@ -229,9 +241,24 @@ p{
 .Holiday-Homes{
     display: flex;
 }
+
+
 .Holiday-Homes div{
     margin-left: 18px;
 }
+.Holiday-Homes p button{
+    background-color: green;
+    width: 35px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+.Holiday-Homes p {
+    width: 200px;
+} 
+
 .Holiday-Homes img{
     width: 280px;
     height: 200px;
@@ -276,10 +303,86 @@ p{
 }
 .Rent{
     background-image: url('./images/Rent.jpeg');
-    width: 100%;
-    height: 500px;
+    width: 90%;
+    height: 450px;
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 20px;
     margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-top: 5px;
+
+}
+#RentCont{
+    margin-left: 40px;
+    width: 410px;
+    background-color: white;
+    height: 400px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+#RentCont h1{
+    font-size: 50px;
+    margin-left: 20px;
+    font-weight: 1px;
+    font-family: serif;
+}
+#RentCont p{
+    margin-left: 20px;
+    font-size: 15px;
+
+}
+#RentCont button{
+    margin-left: 20px;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(1, 8, 52);
+    border: none;
+    color: white;
+}
+.Words{
+    width: 1200px;
+   
+}
+.Words h1{
+    margin-left: 30px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.Words p{
+    margin-left: 30px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    word-spacing: 2px;
+}
+.Words ul li{
+list-style-type: none;
+margin-bottom: 20px;
+font-size: 15px;
+}
+footer{
+    height: 550px;
+    background-color: rgba(246, 250, 250, 0.728);
+    margin-top: 50px;
+}
+
+.footInfo{
+    display: flex;
+}
+.footInfo div{
+    margin-left: 80px;
+}
+
+.footInfo ul li{
+    list-style-type: none;
+    margin-top: 20px;
+    color: rgb(5, 61, 173);
+}
+.lastDiv{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 45px;
 }
